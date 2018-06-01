@@ -15,12 +15,12 @@ $(document).ready(function() {
           format: 'json'
         },
         success: function (response) {
-          console.log(response);
+          
           $(".result").empty();
             if(response.meta.count > 0){
             for (var i = 0; i < response.data.length; i++){
-              $( ".result" ).append( $( "<h1 class='practice'></h1>" ) );
-              $("h1").last().text(`New doctor ${i+1}`);
+           $( ".result" ).append( $( "<h1 class='practice'></h1>" ) );
+           $("h1").last().text(`New doctor ${i+1}`);
            $( ".result" ).append( $( "<div class='name'></div>" ) );
            $( ".result" ).append( $( "<div class='lastname'></div>" ) );
            $('.name').last().text(`the name is ${response.data[i].profile.first_name}`);
@@ -65,12 +65,12 @@ $(document).ready(function() {
           format: 'json'
         },
         success: function (response) {
-          console.log(response);
+         
           $(".result").empty();
           if(response.meta.count > 0){
             for (var i = 0; i < response.data.length; i++){
-              $( ".result" ).append( $( "<h1 class='practice'></h1>" ) );
-              $("h1").last().text(`New doctor ${i+1}`);
+           $( ".result" ).append( $( "<h1 class='practice'></h1>" ) );
+           $("h1").last().text(`New doctor ${i+1}`);
            $( ".result" ).append( $( "<div class='name'></div>" ) );
            $( ".result" ).append( $( "<div class='lastname'></div>" ) );
            $('.name').last().text(`the name is ${response.data[i].profile.first_name}`);
