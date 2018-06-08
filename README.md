@@ -7,10 +7,10 @@
 ## Description
 
 _this web app accepts:
-*doctor's name
-    * returns a list of doctors' contact information relevant to the search query
-*medical condition
-    *returns a list of doctors' contact information relevant to the search query_
+* _doctor's name_
+    * _returns a list of doctors' contact information relevant to the search query_
+* _medical condition_
+    * _returns a list of doctors' contact information relevant to the search query_
 
 ## Setup/Installation Requirements
 
